@@ -17,11 +17,12 @@ export default {
   <header>
     <div class="cabecalho">
       <div>
-        <span>
+        <span class="cabecalho-span">
           <RouterLink to="/">FilmeShow</RouterLink>
         </span>
-        <span
-          ><select v-model="destino" @change="go">
+        <span>
+          <select v-model="destino" @change="go" class="select-cabecalho">
+            <option value="" disabled>Categorias</option>
             <option value="/acao">açao e aventura</option>
             <option value="/terror">Terror</option>
             <option value="/animacao">Animaçao</option>
@@ -31,12 +32,14 @@ export default {
             <option value="/comedia">Comedia</option>
             <option value="/drama">Drama</option>
             <option value="/romance">Romance</option>
-          </select></span
+          </select>
+        </span>
+        <span class="cabecalho-span"
+          ><RouterLink to="/lancamento">Lançamentos</RouterLink></span
         >
-        <span><RouterLink to="/lancamento">Lançamentos</RouterLink></span>
       </div>
       <div>
-        <span>Minha Conta</span>
+        <span class="cabecalho-span">Minha Conta</span>
         <button>
           <RouterLink to="/pesquisa" class="button-pesquisar"
             >Pesquisar

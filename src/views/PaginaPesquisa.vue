@@ -12,18 +12,18 @@ import CompRodape from "../components/CompRodape.vue";
     <div class="reposta">
       <h1>Resultados:</h1>
       <div class="conteudoR">
-        <BlocoFilme />
-        <BlocoFilme />
-        <BlocoFilme />
-        <BlocoFilme />
-        <BlocoFilme />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
       </div>
       <div class="conteudoRF">
-        <BlocoFilme />
-        <BlocoFilme />
-        <BlocoFilme />
-        <BlocoFilme />
-        <BlocoFilme />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
+        <BlocoFilme picture_src="src/assets/img/avatar.jpg" pic_link="/filme" />
       </div>
     </div>
     <CompRodape />
